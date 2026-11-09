@@ -1,0 +1,24 @@
+== Tooling verification report: Mon Nov  9 12:23:29 UTC 2026 ==
+-- Host --
+Description:	Ubuntu 24.04.4 LTS
+Mem:           3.8Gi       1.2Gi       179Mi        13Mi       2.7Gi       2.6Gi
+/dev/root        29G  9.7G   19G  35% /
+-- Versions --
+git version 2.43.0
+./verification.sh: line 7: code: command not found
+Docker version 29.8.0, build 88096ef
+Docker Compose version v5.5.1
+minikube version: v1.39.0
+Client Version: v1.35.10
+Kustomize Version: v5.7.1
+v3.22.1+gd6c1a0e
+aws-cli/2.39.6 Python/3.14.8 Linux/7.0.0-1017-azure exe/x86_64.ubuntu.24
+azure-cli                         2.92.0
+v18.19.1
+jq-1.7
+./verification.sh: line 17: terraform: command not found
+ansible [core 2.21.5]
+-- Permissions --
+OK: user is in docker group
+srw-rw---- 1 root docker 0 Nov  9 09:20 /var/run/docker.sock
+OK: docker works without sudo
